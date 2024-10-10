@@ -18,7 +18,7 @@ async function bootstrap() {
 	SwaggerModule.setup('api', app, document)
 
 	app.enableCors({
-		origin: '*',
+		origin: 'https://app-center.ilyacode.ru',
 		methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
 		credentials: true
 	})
